@@ -1,9 +1,5 @@
 #`GUZZLE FOR GITHUB`
-##*`BEGINERS GUIDE TO GUZZLE`*
-</br>
-####*A FrameWork For Working With API's And HTTP Requests*
----
-
+##*`A Beginers Guide To Guzzle Using Github`*
 </br>
 </br>
 > Course Overview And Expectations:
@@ -61,7 +57,7 @@ Create | Read | Update | Delete
 
 
 ##what is guzzle?
-
+####*A FrameWork For Working With API's And HTTP Requests*
 
 
 
