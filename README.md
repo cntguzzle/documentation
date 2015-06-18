@@ -69,109 +69,22 @@ By using Guzzle we can develop rapid prototypes connecting APIs into application
 </br>
 
 # `1`  `Installing Guzzle`
-##*`From Composer To Creating The First Client Connection`*
+###*`From Composer To Creating The First Client Connection`*
 
 
+###**Create A Composer File With The Guzzle Requirement**
 
+> #### Composer File As A Text File
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</br>
-</br>
-
-
-
-
-
-
-##Applying CRUD With GitHub
-
-#### Create
-- Create
-	* Create A Connection To The GitHub API
-	* Create An 
-
-
-- READ
-- UPDATE
-- DELETE
-
-Create | Read | Update | Delete
---- | --- | --- | ---
-
-
-
-##Pre-requisites
-##For our agenda in this topic:
-
-    Utilize CRUD statements in SQL - Create, read, update and delete records in a database.
-    Simple authentication and security - Logging in and out, handling unauthorized users and restricting access.
-    Simple time and date manipulation - Displaying time and date postings and monitoring your posts.
-    Displaying public and private data - Simply display information for logged-in users only and for the public
-    De-briefing and Summary - Final output and some notes. FAQ's are also place here.
-
-
-
-
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-Table of Contents:
-
-HTTP
-API
-GUZZLE
-CURL
-HEADERS
-RESPONSE
-ERROR HANDLING
-RESTFUL
-
-
-
-##A few facts about the Instagram API 
-* On an average day there are...
-	* 40 million Photos Uploaded Per Day
-	* 8,500 Likes Created Per Second
-	* 1,000 Comments Per Second
-</br>
-
-> #### How would you interact with that data?
-> #### What types of applications could you build leveraging the data?
-> #### What could you connect that data to?
-
-###Create Creative Data by Asking Interesting Questions! 
-> * NBA Players Instagram Post Frequencey Compared To Their Shot Percentages And Salary?
-
-###The future of the web is about connecting and sharing data!
-
-
---
-</br>
-
+```
+{
+    "require": {
+        "guzzlehttp/guzzle": "5.3.0"
+    }
+}
+```
+> #### Composer From Terminal/Shell/Command Line
+> 
+```
+composer require guzzlehttp/guzzle 5.3.0
+```
